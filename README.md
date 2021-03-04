@@ -32,7 +32,7 @@ For example :
 ### TESTING
 
 ### PARAMETERS
-#### parameter      /example/file            introduction
+#### parameter\t\t/example/file\t\tintroduction
 - --tree            treefile.newick          => a perfect binary newick format phylogenetic tree 
 - --category        category_IDs.txt         => sequences' category
 - --fasta           data.fasta               => fasta format data
