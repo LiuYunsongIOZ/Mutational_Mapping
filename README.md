@@ -32,14 +32,14 @@ For example :
 ### TESTING
 
 ### PARAMETERS
-#### parameter\t\t/example/file\t\tintroduction
-- --tree            treefile.newick          => a perfect binary newick format phylogenetic tree 
-- --category        category_IDs.txt         => sequences' category
-- --fasta           data.fasta               => fasta format data
-- --codon           Required_Codon.txt   
-- --Qrate           GTR_Q_rate.txt           => The rate parameter of Q Matrix of GTR model  ( A-C: d, A-G: f, A-T: b, C-G: e, C-T: a, G-T: c)
-- --Gamma           Gamma_Rate.txt           => Gamma rate
-- --time            SeqTimeInfor.txt    
+#### parameter								/example/file								introduction
+- --tree											treefile.newick          		=> a perfect binary newick format phylogenetic tree 
+- --category         					category_IDs.txt        	  => sequences' category
+- --fasta           					data.fasta                  => fasta format data
+- --codon           					Required_Codon.txt   
+- --Qrate           					GTR_Q_rate.txt              => The rate parameter of Q Matrix of GTR model  ( A-C: d, A-G: f, A-T: b, C-G: e, C-T: a, G-T: c)
+- --Gamma           					Gamma_Rate.txt              => Gamma rate
+- --time            					SeqTimeInfor.txt    
 
 
 ## Distribution Structure
