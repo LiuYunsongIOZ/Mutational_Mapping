@@ -24,4 +24,4 @@ For example :
               "(A:0.1,B:0.2,(C:0.3,D:0.4):0.5);"    ×
               
               "((A:0.1,B:0.2):0.0,(C:0.3,D:0.4):0.5);"    √
-2. 
+2. All input files that need to be analyzed, please strictly follow the sample file format, can not randomly add any content, please refer to the files in the "/Mutational_Mapping/examples/" folder for details.
