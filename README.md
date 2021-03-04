@@ -39,7 +39,7 @@ For example :
 | --category | category_IDs.txt | sequences' category |
 | --fasta | data.fasta | fasta format data |
 | --codon | Required_Codon.txt | |
-| --Qrate | GTR_Q_rate.txt | The rate parameter of Q Matrix of GTR model  ( A-C: d, A-G: f, A-T: b, C-G: e, C-T: a, G-T: c) |
+| --Qrate | GTR_Q_rate.txt | The rate parameter of Q Matrix of GTR model  ( C-T: a, A-T: b, G-T: c, A-C: d, C-G: e, A-G: f ) |
 | --Gamma | Gamma_Rate.txt | Gamma rate |
 | --codon | SeqTimeInfor.txt| |
 
