@@ -16,18 +16,6 @@ Mutational Mapping requires the following dependencies:
 - datetime
 - sys
 
-## WARNING
-When this program check your input files, it merely can check whether the specified path exist these files and the files' format, it can not do more accurate work. So you need to check your files by yourself before you using this tool.
-1. Firstly, you need to make sure that the Newick format phylogenetic tree file you provide has and only contains one tree (https://en.wikipedia.org/wiki/Newick_format), and this phylogenetic tree must be a perfect binary tree.
-For example : 
-
-              "(A:0.1,B:0.2,(C:0.3,D:0.4):0.5);"    ×
-              
-              "((A:0.1,B:0.2):0.0,(C:0.3,D:0.4):0.5);"    √
-2. The sequences file should be saved in fasta format, ">id\nATCG". The id represents the sequence identifier which you can change according your requirements and ATCG represents the sequence.
-
-3. All input files that need to be analyzed, please strictly follow the sample file format, can not randomly add any content, please refer to the files in the "/Mutational_Mapping/examples/" folder for details.
-
 ## USER GUIDE
 ### TESTING
 
@@ -43,5 +31,16 @@ For example :
 | --Gamma | Gamma_Rate.txt | Gamma rate |
 | --codon | SeqTimeInfor.txt| |
 
+## WARNING
+When this program check your input files, it merely can check whether the specified path exist these files and the files' format, it can not do more accurate work. So you need to check your files by yourself before you using this tool.
+1. Firstly, you need to make sure that the Newick format phylogenetic tree file you provide has and only contains one tree (https://en.wikipedia.org/wiki/Newick_format), and this phylogenetic tree must be a perfect binary tree.
+For example : 
+
+              "(A:0.1,B:0.2,(C:0.3,D:0.4):0.5);"    ×
+              
+              "((A:0.1,B:0.2):0.0,(C:0.3,D:0.4):0.5);"    √
+2. The sequences file should be saved in fasta format, ">id\nATCG". The id represents the sequence identifier which you can change according your requirements and ATCG represents the sequence.
+
+3. All input files that need to be analyzed, please strictly follow the sample file format, can not randomly add any content, please refer to the files in the "/Mutational_Mapping/examples/" folder for details.
 
 ## Distribution Structure
