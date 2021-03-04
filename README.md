@@ -27,3 +27,18 @@ For example :
 2. The sequences file should be saved in fasta format, ">id\nATCG". The id represents the sequence identifier which you can change according your requirements and ATCG represents the sequence.
 
 3. All input files that need to be analyzed, please strictly follow the sample file format, can not randomly add any content, please refer to the files in the "/Mutational_Mapping/examples/" folder for details.
+
+## USER GUIDE
+### TESTING
+
+### PARAMETERS
+- --tree
+- --category
+- --fasta
+- --codon
+- --Qrate
+- --Gamma
+- --time
+
+
+## Distribution Structure
