@@ -34,7 +34,7 @@ For example :
 ### PARAMETERS
 
 | parameter | /examples/file | introduction |
-| :------------- | :-------------: | -------------: |
+| :------------- | :------------- | :------------- |
 | --tree | treefile.newick | a perfect binary newick format phylogenetic tree |
 | --category | category_IDs.txt | sequences' category |
 | --fasta | data.fasta | fasta format data |
