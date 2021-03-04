@@ -6,13 +6,13 @@ This is an academic project started by Dr. Liu Yunsong from Institute of Zoology
 
 ## DEPENDENCES
 Mutational Mapping requires the following dependencies:
->Python (>= 3.7)
->numpy(>=1.19.2)
->scipy(>=1.5.2)
->pprint
->pandas
->math
->random
->datetime
->sys
+- Python (>= 3.7)
+- numpy(>=1.19.2)
+- scipy(>=1.5.2)
+- pprint
+- pandas
+- math
+- random
+- datetime
+- sys
 
