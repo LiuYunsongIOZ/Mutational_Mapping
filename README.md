@@ -32,13 +32,13 @@ For example :
 ### TESTING
 
 ### PARAMETERS
-- --tree
-- --category
-- --fasta
-- --codon
-- --Qrate
-- --Gamma
-- --time
+- --tree treefile.newick
+- --category category_IDs.txt
+- --fasta data.fasta
+- --codon Required_Codon.txt
+- --Qrate GTR_Q_rate.txt
+- --Gamma Gamma_Rate.txt
+- --time SeqTimeInfor.txt
 
 
 ## Distribution Structure
